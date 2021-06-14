@@ -1,0 +1,92 @@
+body{
+    background: #0f0c29; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    
+}
+.container{
+    width:350px;
+    height:500px;
+    margin:2% auto;
+    border-radius: 10px;
+    background:rgb(214,214,214);
+    box-shadow: 5px 5px 10px #b6a9a9, ;
+
+}
+.cal-box{
+    width:200px;
+    margin: 20px auto;
+}
+#display{
+    border:none;
+    outline:none;
+    color:black;
+    text-align:right;
+    font-weight:700;
+    padding:15px;
+    margin:50px 20px 50px 0;
+    background: transparent;
+    box-shadow:inset 3px 3px 6px #babecc, inset -5px -5px 10px #ffffff;
+
+}
+
+.button{
+    margin:20px 0 0 4px;
+    width:43px;
+    height:43px;
+    border:none;
+    outline:none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 8px;
+    background: rgb(214,214,214);
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+    display:inline-block;
+}
+.button:active{
+    box-shadow:inset 1px 1px 2px #babeec, inset -1px -1px 2px #ffffff;
+}
+.clearButton{
+    background:red;
+    color:white;
+
+}
+.mathbutton{
+    background:black;
+    color:white;
+}
+
+.custom-shape-divider-bottom-1623683120 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1623683120 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 261px;
+}
+
+.custom-shape-divider-bottom-1623683120 .shape-fill {
+    fill: #FFFFFF;
+}
+h2{
+    text-align:center;
+    color:rgb(7, 143, 7);
+    
+}
+h1{
+    text-align:center;
+    letter-spacing: 9px;
+    color:rgb(214,214,214);
+    font-size:55px;
+    font-family: 'Do Hyeon', sans-serif
+}
